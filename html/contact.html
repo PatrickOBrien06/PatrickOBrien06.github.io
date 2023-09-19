@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Contact</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-white" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Patrick O'Brien</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="projects.html">My Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="page">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" id="text">
+        <h1 id="header">Contact Me</h1>
+        <hr>
+        <h3 class="subheader">About</h3>
+        <p>
+          I'm Patrick O'Brien, a high school student with a passion for AI and machine learning. I have experience working with Python and I'm eager to learn and explore more in this field.
+        </p>
+        <hr>
+        <h3 class="sub-header">Contact Information</h3>
+        <p>If you have any inquiries or would like to get in touch, feel free to reach out to me using the contact form below or via the provided contact details.</p>
+        <p>Email: pro0716@hotmail.com</p>
+        <p>Phone: +1 709-853-1028</p>
+        <p>Address: 128 Swansea, CBS, NL, Canada</p>
+        <a href="mailto:pro0716@hotmail.com" class="btn btn-primary btn-lg mt-4">Hire Me</a>
+        <hr>
+        <h3>Contact Me</h3>
+        <p>Please fill out the form below to get in touch with me.</p>
+        <form action="send_email.php" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <hr>
+        <h3 class="sub-header">Social Media</h3>
+
+      </div>
+      <div class="col-md-6" id="img-contain">
+        <img src="me.jpg" class="img">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>

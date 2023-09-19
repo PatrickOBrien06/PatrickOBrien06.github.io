@@ -1,5 +1,6 @@
 body {
 height: 100%;
+background-color: #F3E9E0;
 }
 
 #navbar {
@@ -25,9 +26,16 @@ justify-content: center;
 
 #text{
 margin-bottom: 5%;
+font-size: 19px;
+
 }
 
 #header {
 margin-top: 10%;
 margin-bottom: 10%;
+}
+
+#sub-header {
+margin-top: 5%;
+margin-bottom: 5%;
 }

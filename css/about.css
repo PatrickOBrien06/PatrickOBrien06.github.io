@@ -1,0 +1,35 @@
+body {
+height: 100%;
+}
+
+#navbar {
+background-color: #DCCCBF;
+}
+
+.page {
+background-color: #F3E9E0;
+height: 100%;
+}
+
+.img {
+width: 300px;
+height: 400px;
+border-radius: 200px;
+margin-top: 25%;
+}
+
+#img-contain {
+display: flex;
+justify-content: center;
+}
+
+#text{
+margin-bottom: 5%;
+font-size: 19px;
+
+}
+
+#header {
+margin-top: 10%;
+margin-bottom: 10%;
+}
