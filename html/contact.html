@@ -3,31 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <title>About</title>
+    <title>Contact</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-body-white" id="navbar">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Patrick O'Brien</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="../html/about.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="../html/projects.html">My Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="../html/contact.html">Contact Me</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg bg-body-white" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Patrick O'Brien</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../html/about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../html/projects.html">My Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../html/contact.html">Contact Me</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 <div class="page">
   <div class="container">
     <div class="row">
@@ -36,7 +37,7 @@
         <hr>
         <h3 class="subheader">About</h3>
         <p>
-          I'm Patrick O'Brien, a high school student with a passion for AI and machine learning. I have experience working with Python and I'm eager to learn and explore more in this field.
+          I'm Patrick O'Brien, a high school student with a passion for software development. I have experience working with Python and I'm eager to learn and explore more in this field.
         </p>
         <hr>
         <h3 class="sub-header">Contact Information</h3>
@@ -44,32 +45,45 @@
         <p>Email: pro0716@hotmail.com</p>
         <p>Phone: +1 709-853-1028</p>
         <p>Address: 128 Swansea, CBS, NL, Canada</p>
-        <a href="mailto:pro0716@hotmail.com" class="btn btn-primary btn-lg mt-4">Hire Me</a>
+        <a href="mailto:pro0716@hotmail.com" class="btn btn-primary btn-lg mt-2 mb-2">Contact Me</a>
         <hr>
-        <h3>Contact Me</h3>
-        <p>Please fill out the form below to get in touch with me.</p>
-        <form action="send_email.php" method="post">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" name="name" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" class="form-control" id="subject" name="subject" required>
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
-        <hr>
-        <h3 class="sub-header">Social Media</h3>
+        <h3 class="sub-header mb-4 mt-1">Social Media</h3>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+        <style>
+          .fa:hover {
+              opacity: 0.9;
+          }
+    
+          .fa-linkedin {
+              background: #007bb5;
+              color: white;
+          }
+          
+          .fa-twitter {
+              background: #55ACEE;
+              color: white;
+          }
 
+          .fa-instagram {
+            background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+            color: white;
+          }
+
+          .fa {
+              font-size: 50px;
+              text-decoration: none;
+              text-align: center;
+              width: 70px;
+              height: 50px;
+              border-radius: 50px;
+          }
+          
+          .sub-header {
+            margin-bottom: 10px;
+          }
+        </style>
       </div>
       <div class="col-md-6" id="img-contain">
         <img src="../img/me.jpg" class="img">
