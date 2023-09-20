@@ -7,23 +7,27 @@ background-color: #DCCCBF;
 }
 
 .row {
-margin-top: 120px;
+margin-top: 100px;
 padding-bottom: 40px;
 }
 
-.col-3 {
-border-radius: 10px;
-background-color: #F0F0F0;
+.col-md-4 {
+border-radius: 5px;
+background-color: #ece2d9;
 }
 
-.margin-sides {
-margin-bottom: 20px;
-margin-left: 20px;
-margin-right: 20px;
+.project-item {
+overflow: hidden;
+max-height: 500px;
+}
+  
+.project-item p.description {
+overflow: hidden;
+text-overflow: ellipsis;
 }
 
 #projects {
-margin-top: 150px;
+margin-top: 100px;
 }
 
 .name {
