@@ -2,7 +2,7 @@ body {
 height: 100%;
 }
 
-#navbar {
+.navbar {
 background-color: #DCCCBF;
 }
 
@@ -24,10 +24,6 @@ max-height: 500px;
 .project-item p.description {
 overflow: hidden;
 text-overflow: ellipsis;
-}
-
-#projects {
-margin-top: 100px;
 }
 
 .name {
