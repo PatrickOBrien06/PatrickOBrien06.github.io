@@ -1,14 +1,5 @@
-body {
-height: 100%;
-}
-
 .navbar {
 background-color: #DCCCBF;
-}
-
-.full-page {
-background-color: #F3E9E0;
-height: 100%;
 }
 
 .img {
@@ -24,12 +15,24 @@ display: flex;
 justify-content: center;
 }
 
-.text{
+#text{
 margin-bottom: 5%;
-font-size: 19px;
+font-size: 20px;
 }
 
 .header {
 margin-top: 10%;
 margin-bottom: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 20%;
+    }
+
+    #text {
+        margin-bottom: 10px;
+    }
 }

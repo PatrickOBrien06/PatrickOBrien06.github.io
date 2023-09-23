@@ -1,16 +1,5 @@
-body {
-background-color: #F3E9E0;
-margin: 0;
-height: 100%;
-}
-
 .navbar {
 background-color: #DCCCBF;
-}
-
-.page {
-background-color: #F3E9E0;
-min-height: 96vh;
 }
 
 .img {
@@ -27,7 +16,7 @@ justify-content: center;
 
 #text{
 margin-bottom: 5%;
-font-size: 19px;
+font-size: 20px;
 }
 
 #header {
@@ -40,4 +29,8 @@ margin-top: 5%;
 margin-bottom: 5%;
 }
 
-
+@media screen and (max-width: 800px) {
+    .img {
+        display: none;
+    }
+}
