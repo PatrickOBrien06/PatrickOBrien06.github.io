@@ -10,6 +10,8 @@ background-color: #DCCCBF;
 .full-introduction {
 height: 80vh;
 display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .section {
@@ -29,4 +31,38 @@ max-width: 100%;
 border-radius: 200px;
 width: 300px;
 height: 400px;
+}
+
+@media screen and (max-width: 800px) {
+.full-introduction {
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.section {
+    width: 90vw;
+    order: 2;
+    margin: 2%;
+}
+
+.aside {
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-right: 0%;
+    order: 1;
+}
+
+.photo {
+    border-radius: 200px;
+    width: 300px;
+    height: 400px;
+}
+
+.intro-me {
+    margin-bottom: 3%;
+}
+
+p {
+    font-size: 20px;
+}
 }
