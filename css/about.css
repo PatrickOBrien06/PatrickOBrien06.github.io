@@ -10,13 +10,13 @@ margin-top: 25%;
 margin-left: 25%;
 }
 
-.img-contain {
+#img-contain {
 display: flex;
 justify-content: center;
 }
 
 #text{
-margin-bottom: 5%;
+margin-bottom: 8%;
 font-size: 20px;
 }
 
@@ -27,9 +27,9 @@ margin-bottom: 10%;
 
 @media screen and (max-width: 800px) {
     .img {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-left: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0%;
     }
 
     #text {
