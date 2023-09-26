@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #DCCCBF;
+}
+
+header {
+    background-color: #ece2d9;
+    height: 50vh;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+article {
+    background-color: #ece2d9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
