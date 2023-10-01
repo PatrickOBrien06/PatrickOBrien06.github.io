@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Blog</title>
 </head>
@@ -32,24 +33,73 @@
           </div>
         </div>
     </nav>
-    <div class="container">
-        <header class="mt-5 mb-5">
-            <h2>Blog</h2>
-        </header>
-        <div class="posts">
-            <article class="col-md-7">
-                <h3 class="mb-4">I'm Patrick</h3>
-                <p> Hello, I am Patrick </p>
-            </article>
-            <article class="col-md-7">
-                <h3 class="mb-4">I'm Patrick</h3>
-                <p> Hello, I am Patrick </p>
-            </article>
-        </div>
-        <aside>
-            
-        </aside>
-    </div>
+    <header>
+        <h2>Blog</h2>
+    </header>
+    <main>
+        <section class="articles">
+          <article>
+          </article>
+          <article>
+          </article>
+          <article>
+          </article>
+          <article>
+          </article>
+          <article>
+          </article>
+        </section>
+        <section class="sidebar">
+          <aside>
+            <h3>About Me</h3>
+            <hr>
+            <p>Hello, I'm Patrick, a high school student with a passion for coding and especially web development. I will post things I learned and updates about my journey with a focus on Full Stack Apps and IoT. <span>Come join me on my journey!</span></p>
+          </aside>
+          <aside>
+            <h3>Social Media</h3>
+            <hr>
+            <section class="social-medias">
+              <a href="https://www.linkedin.com/in/patrick-o-brien-3a7564264/" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+        <style>
+          .fa:hover {
+              opacity: 0.9;
+          }
+    
+          .fa-linkedin {
+              background: #007bb5;
+              color: white;
+          }
+          
+          .fa-twitter {
+              background: #55ACEE;
+              color: white;
+          }
+
+          .fa-instagram {
+            background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+            color: white;
+          }
+
+          .fa {
+              font-size: 50px;
+              text-decoration: none;
+              text-align: center;
+              width: 70px;
+              height: 50px;
+              border-radius: 50px;
+          }
+          
+          .sub-header {
+            margin-bottom: 10px;
+          }
+        </style>
+            </section>
+          </aside>
+        </section>
+    </main>
 </body>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
