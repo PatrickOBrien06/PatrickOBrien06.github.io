@@ -17,6 +17,11 @@ overflow: hidden;
 max-height: 500px;
 }
   
+.project-img {
+height: 60%;
+width: 85%;
+}
+
 .project-item p.description {
 overflow: hidden;
 text-overflow: ellipsis;
